@@ -10,6 +10,7 @@ class Samtools < Formula
     system "make"
     system "make razip"
     system "cd bcftools; make"
+    # Modified stuff...
 
     bin.install %w{samtools razip bcftools/bcftools}
     (share+'samtools').install %w{examples misc}
