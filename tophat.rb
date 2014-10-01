@@ -2,7 +2,7 @@ require 'formula'
 
 class Tophat < Formula
   homepage 'http://tophat.cbcb.umd.edu/'
-  url 'http://tophat.cbcb.umd.edu/downloads/tophat-2.0.10.tar.gz'
+  url 'http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.10.tar.gz'
   sha1 '1c9d273d929d9145a75c5468b31c2e6b56e59654'
 
   depends_on 'samtools'
