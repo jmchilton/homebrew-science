@@ -2,8 +2,8 @@ require 'formula'
 
 class Tophat < Formula
   homepage 'http://tophat.cbcb.umd.edu/'
-  url 'http://tophat.cbcb.umd.edu/downloads/tophat-2.0.11.tar.gz'
-  sha1 'd5fe268619a4d37bba5d330e8328954d6c66d0e0'
+  url 'http://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.11.tar.gz'
+  sha1 '1c9d273d929d9145a75c5468b31c2e6b56e59654'
 
   depends_on 'samtools'
   depends_on 'boost'
