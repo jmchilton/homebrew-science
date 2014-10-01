@@ -1,7 +1,7 @@
 require 'formula'
 
 class Tophat < Formula
-  url 'http://tophat.cbcb.umd.edu/downloads/tophat-1.4.1.tar.gz'
+  url 'http://ccb.jhu.edu/software/tophat/downloads/tophat-1.4.1.tar.gz'
   homepage 'http://tophat.cbcb.umd.edu/'
   sha1 '0513bbcadb7194f12fbddeb3e4033e032f2fb29f'
 
